@@ -1,0 +1,24 @@
+{
+  "name": "foodie-new",
+  "version": "1.0.0",
+  "description": "foodie to foodie project made as a portfolio project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmford/foodie-new.git"
+  },
+  "author": "Kevin Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmford/foodie-new/issues"
+  },
+  "homepage": "https://github.com/kevinmford/foodie-new#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fontawesome": "^4.7.2",
+    "jquery": "^3.2.1"
+  }
+}
