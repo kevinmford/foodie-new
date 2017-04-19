@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>foodietofoodie</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap-foodie.min.css">
-  <link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.min.css">
-  <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap-foodie.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="app.js"></script>
-</head>
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-default navbar-fixed">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">LOGO</a>
+  <head>
+    <meta charset="UTF-8">
+    <title>foodietofoodie</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap-foodie.min.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap-foodie.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">LOGO</a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="menu-item"><a href="#whats-cooking">Whats Cooking</a></li>
+              <li class="menu-item"><a href="#our-message">Our message</a></li>
+              <li class="menu-item"><a href="#pricing">Pricing</a></li>
+              <li class="menu-item"><a href="#restaurants">Restaurants</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search Ingredients">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="menu-item"><a href="#whats-cooking">Whats Cooking</a></li>
-            <li class="menu-item"><a href="#our-message">Our message</a></li>
-            <li class="menu-item"><a href="#pricing">Pricing</a></li>
-            <li class="menu-item"><a href="#restaurants">Restaurants</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search Ingredients">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-          </ul>
+      </nav>
+      <div class="jumbotron jumbo-image">
+        <h2 id="jumbo-text">Enjoy restaurant quality recipes at home.</h2>
+        <button class="btn btn-primary">Learn more!</button>
+      </div>
+      <div class="jumbotron" id="our-message">
+        <h2>Eat out in your own home</h2>
+        <p>treat yourself and all that crap. i need to fill a few lines of text with stuff thats gonna be replaced with more official sounding stuff but it needs to take up some space so im just gonna post a couple lines from this article i was reading earlier. The first Muslim woman in U.S. history to become a judge was found dead Wednesday afternoon when her body washed up on the Manhattan side of the Hudson River in New York City.</p>
+      </div>
+      <div class="container-fluid" id="whats-cooking">
+        <div class="row">
+          <h1>Whats Cooking</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3 whats-cooking-item">
+            <a>
+              <img class="whats-cooking-img"src="http://25.media.tumblr.com/8de69d887367fa0ea41ba1c628fcad9f/tumblr_myvf7h7dKh1shjq15o1_1280.jpg">
+              <h3 class="whats-cooking-title">Berry Cake Thing</h3>
+              <p class="whats-cooking-subtext">comes with berries and vanilla frosting</p>
+            </a>
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+        </div>
+       <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3">
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="jumbotron jumbo-image">
-      <h2 id="jumbo-text">Enjoy restaurant quality recipes at home.</h2>
-      <button class="btn btn-primary">Learn more!</button>
     </div>
-    <div class="jumbotron" id="our-message">
-      <h2>Eat out in your own home</h2>
-      <p>treat yourself and all that crap. i need to fill a few lines of text with stuff thats gonna be replaced with more official sounding stuff but it needs to take up some space so im just gonna post a couple lines from this article i was reading earlier. The first Muslim woman in U.S. history to become a judge was found dead Wednesday afternoon when her body washed up on the Manhattan side of the Hudson River in New York City.</p>
-    </div>
-    <div id="whats-cooking">
-    </div>
-  </div>
-</body>
+  </body>
 </html>

@@ -5,3 +5,15 @@
 #jumbo-text {
   color: #ffffff;
 }
+
+.whats-cooking-item {
+  height: 300px;
+  width: 300px;
+}
+
+.whats-cooking-img {
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+}
+
