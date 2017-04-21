@@ -6,9 +6,19 @@
   color: #ffffff;
 }
 
+.whats-cooking-link:hover{
+  text-decoration: none;
+}
+
+.whats-cooking-grid{
+  margin-left: 50px;
+}
+
 .whats-cooking-item {
   height: 300px;
   width: 300px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .whats-cooking-img {
@@ -17,3 +27,12 @@
   border-radius: 5px;
 }
 
+.whats-cooking-title {
+  color: #42c8f4;
+  text-decoration: none;  
+}
+
+.whats-cooking-subtext {
+  color: #bababa;
+  text-decoration: none;
+}
