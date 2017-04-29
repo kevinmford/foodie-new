@@ -36,3 +36,10 @@
   color: #bababa;
   text-decoration: none;
 }
+
+.button-bar {
+  padding-left: 15px;
+}
+ .social-buttons {
+  border-radius: 3px;
+ }
