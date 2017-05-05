@@ -28,7 +28,7 @@
 }
 
 .whats-cooking-title {
-  color: #42c8f4;
+  color: #000e7a;
   text-decoration: none;  
 }
 
@@ -37,9 +37,27 @@
   text-decoration: none;
 }
 
-.button-bar {
+.social-button-bar {
   padding-left: 15px;
 }
+
  .social-buttons {
-  border-radius: 3px;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
  }
+
+.facebook-button {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.twitter-button {
+  background-color: #4099FF;
+  color: #fff;
+}
+
+.book-button {
+  background-color: #000e7a;
+  color: #fff;
+}
