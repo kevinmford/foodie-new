@@ -38,13 +38,15 @@
 }
 
 .social-button-bar {
-  padding-left: 15px;
+  padding-left: 25px;
+  margin-top: -35px
 }
 
  .social-buttons {
   border-radius: 10px;
   height: 30px;
-  width: 80px;
+  width: 100px;
+  display: hide;
  }
 
 .facebook-button {
@@ -58,6 +60,14 @@
 }
 
 .book-button {
+  margin-top: 5px;
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 92%;
+  border-radius: 5px;
   background-color: #000e7a;
   color: #fff;
+  border-style: solid;
+  border-color: transparent;
 }

@@ -7,5 +7,11 @@ $(document).ready(function() {
     var selected = $(this).text();
     console.log(selected);
   });
-
+  $( ".whats-cooking-item" )
+    .on("mouseenter", function() {
+      $(".social-buttons").show();
+    })
+    .on("mouseleave", function() {
+    $(".social-buttons").hide();
+  });
 });
