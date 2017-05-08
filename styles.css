@@ -11,10 +11,11 @@
 }
 
 .whats-cooking-grid{
-  margin-left: 50px;
+ 
 }
 
 .whats-cooking-item {
+  position: relative;
   height: 300px;
   width: 300px;
   margin-top: 10px;
@@ -38,11 +39,11 @@
 }
 
 .social-button-bar {
-  padding-left: 25px;
-  margin-top: -35px
+  position: absolute;
+  bottom: 65px;
 }
 
- .social-buttons {
+.social-buttons {
   border-radius: 10px;
   height: 30px;
   width: 100px;
@@ -60,14 +61,6 @@
 }
 
 .book-button {
-  margin-top: 5px;
-  margin-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 92%;
-  border-radius: 5px;
-  background-color: #000e7a;
-  color: #fff;
-  border-style: solid;
-  border-color: transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
