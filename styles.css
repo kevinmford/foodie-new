@@ -16,16 +16,15 @@
 
 .whats-cooking-item {
   position: relative;
-  height: 300px;
-  width: 300px;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
 .whats-cooking-img {
   height: 80%;
   width: 100%;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;  
 }
 
 .whats-cooking-title {
@@ -40,7 +39,7 @@
 
 .social-button-bar {
   position: absolute;
-  bottom: 65px;
+  bottom: 115px;
 }
 
 .social-buttons {
