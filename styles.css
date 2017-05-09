@@ -40,12 +40,13 @@
 .social-button-bar {
   position: absolute;
   bottom: 115px;
+  padding-left: 5px;
 }
 
 .social-buttons {
   border-radius: 10px;
   height: 30px;
-  width: 100px;
+  width: 110px;
   display: hide;
  }
 
