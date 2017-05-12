@@ -60,30 +60,36 @@ $(document).ready(function() {
     }
   ]
 
-  for (var i = 0; i < data.length; i++){
+  function displayCards(){
     var html = "";
-    if (i % 4 === 0) {
-      html += "<div class='row'>"
+    for (var i = 0; i < data.length; i++) {
+      if (i % 4 === 0) {
+        html += "<div class='row'>"
+      }
+      html += `<div class="col-md-3 whats-cooking-item">
+                <a class="whats-cooking-link">
+                  <img class="whats-cooking-img"src="${data[i].img}">
+                  <div class="row social-button-bar">
+                    <div class="col-xs-12">
+                      <button class="fa fa-facebook facebook-button social-buttons"></button>
+                      <button class="fa fa-twitter twitter-button social-buttons"></button>
+                      <button class="fa fa-envelope-o email-button social-buttons"></button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <button class="btn btn-block btn-primary book-button fa fa-book"></button>
+                    </div>
+                  </div>
+                  <h3 class="whats-cooking-title text-center">${data[i].title}</h3>
+                  <p class="whats-cooking-subtext text-center">${data[i].subtext}</p>
+                </a>
+              </div>`
+      if ((i > 0) && ((i - 3) % 4 === 0)) {
+        html += "</div>"
+      }
     }
-    html += `<div class="col-md-3 whats-cooking-item">
-              <a class="whats-cooking-link">
-                <img class="whats-cooking-img"src="${data[i].img}">
-                <div class="row social-button-bar">
-                  <div class="col-xs-12">
-                    <button class="fa fa-facebook facebook-button social-buttons"></button>
-                    <button class="fa fa-twitter twitter-button social-buttons"></button>
-                    <button class="fa fa-envelope-o email-button social-buttons"></button>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12">
-                    <button class="btn btn-block btn-primary book-button fa fa-book"></button>
-                  </div>
-                </div>
-                <h3 class="whats-cooking-title text-center">${data[i].title}</h3>
-                <p class="whats-cooking-subtext text-center">${data[i].subtext}</p>
-              </a>
-            </div>
-          </div>`
-  }
+    $("#whats-cooking-grid").append(html);
+  };
+  displayCards();
 });
